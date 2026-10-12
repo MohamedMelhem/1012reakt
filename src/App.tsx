@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 
-let guest = 0;
+
 function App() {
   const [szoveg,setSzoveg] = useState<string>("Tamás")
   const [item, setItems] = useState<string[]>([]);
@@ -40,16 +40,7 @@ function App() {
 
 export default App;
 
-function Cup() {
-  guest = guest + 1;
-  return <p>{guest}</p>;
-}
-function ButtonValue() {
-  const [count, setCount] = useState<number>(0);
-  return (
-    <>
-      <p>{count}</p>
-      <button onClick={() => setCount((count) => count + 1)}>Növelés</button>
-    </>
+
+
   );
 }
