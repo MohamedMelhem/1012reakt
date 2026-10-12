@@ -18,9 +18,7 @@ function App() {
       {/* <Cup />
       <Cup />
       <Cup /> */}
-      <ButtonValue />
-      <ButtonValue />
-      <ButtonValue />
+      
       <input type="text" placeholder="Ird ide a neved" value={szoveg} 
       onChange={(e) => setSzoveg(e.target.value)}/>
       <p>Név : {szoveg}</p>
@@ -41,6 +39,3 @@ function App() {
 export default App;
 
 
-
-  );
-}
